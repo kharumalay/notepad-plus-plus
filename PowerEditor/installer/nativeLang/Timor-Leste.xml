@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<NotepadPlus>
+	<Native-Langue name = "Tetun" filename="Timor-Leste.xml" >
+		<Menu>
+			<Main>
+                <!-- Main Menu Entries -->
+                <!-- <Entries> -->
+                 <Entries>
+                   <Item menuId="file" name="Fail"/>
+                    <Item menuId="edit" name="Edit"/>
+                    <Item menuId="search" name="Buka"/>
+                    <Item menuId="view" name="hare'e"/>
+                    <Item menuId="encoding" name="Enkode"/>
+                    <Item menuId="language" name="Dalen"/>
+                    <Item menuId="settings" name="Regulasaun"/>
+                    <Item menuId="macro" name="Makro"/>
+                    <Item menuId="run" name="Halao"/>
+                    <Item idName="Plugins" name="Plugin"/>
+                    <Item idName="Window" name="Janela"/>
+                </Entries>
+
+                <!-- Sub Menu Entries -->
+                <SubEntries>
+                    <Item subMenuId="edit-copyToClipboard"  name="Kopia ba Klipbor"/>
+                    <Item subMenuId="edit-indent" name="Indentasi"/>
+                    <Item subMenuId="edit-convertCaseTo" name="Muda nia Kapitalizasaun"/>
+                    <Item subMenuId="edit-lineOperations" name="Lina operasaun"/>
+                    <Item subMenuId="edit-comment" name="Komentariu/Hamos Komentar"/>
+                    <Item subMenuId="edit-autoCompletion" name="Halo Kompleta Automatiku"/>
+                    <Item subMenuId="edit-eolConversion" name="Konversaun EOL"/>
+					<Item subMenuId="edit-blankOperations" name="Operasaun Mamauk"/>
+					<Item subMenuId="edit-pasteSpecial" name="Adesaun Espesial"/>
+                    <Item subMenuId="search-markAll" name="Marka Hotu-Hotu"/>
+                    <Item subMenuId="search-unmarkAll" name="Hamos Marka Hotu-Hotu"/>
+                    <Item subMenuId="search-jumpUp" name="Haksoit Ba Leten"/>
+                    <Item subMenuId="search-jumpDown" name="Haksoit Ba Kraik"/>
+                    <Item subMenuId="search-bookmark" name="Marka"/>
+                    <Item subMenuId="view-showSymbol"  name="Hatudu Simbolu"/>
+                    <Item subMenuId="view-zoom"  name="Halo Boot"/>
+                    <Item subMenuId="view-moveCloneDocument"  name="Muda Documentu/kopia"/>
+                    <Item subMenuId="view-collapseLevel" name="Taka Nivel"/>
+                    <Item subMenuId="view-uncollapseLevel" name="Dezenvolve Nivel"/>
+                    <Item subMenuId="encoding-characterSets"  name="Konzuntu Karakter"/>
+                    <Item subMenuId="encoding-arabic"  name="Arabia"/>
+                    <Item subMenuId="encoding-baltic"  name="Baltik"/>
+                    <Item subMenuId="encoding-celtic"  name="Seltik"/>
+                    <Item subMenuId="encoding-cyrillic"  name="Sirilik"/>
+                    <Item subMenuId="encoding-centralEuropean"  name="Europa Central"/>
+                    <Item subMenuId="encoding-chinese"  name="China"/>
+                    <Item subMenuId="encoding-easternEuropean"  name="Europa Leste "/>
+                    <Item subMenuId="encoding-greek"  name="Grecia"/>
+                    <Item subMenuId="encoding-hebrew"  name="Ibrani"/>
+                    <Item subMenuId="encoding-japanese"  name="Japaun"/>
+                    <Item subMenuId="encoding-korean" name="Korea"/>
+                    <Item subMenuId="encoding-northEuropean" name="Europa Norte"/>
+                    <Item subMenuId="encoding-thai" name="Thai"/>
+                    <Item subMenuId="encoding-turkish" name="Turki"/>
+                    <Item subMenuId="encoding-westernEuropean" name="Europa Oeste"/>
+                    <Item subMenuId="encoding-vietnamese" name="Vietnam"/>
+                    <Item subMenuId="settings-import"  name="Importasaun"/>
+                </SubEntries>
+
+                <!-- all menu item -->
+                <Commands>
+                    <Item id="41001" name="Foun"/>
+                    <Item id="41002" name="Loke"/>
+                    <Item id="41003" name="Taka"/>
+                    <Item id="41004" name="Taka Hotu-Hotu"/>
+                    <Item id="41005" name="Taka Hotu-Hotu Excetu Dokumen Ativo"/>
+                    <Item id="41006" name="Rai"/>
+                    <Item id="41007" name="Rai Hotu-Hotu"/>
+                    <Item id="41008" name="Rai Hanesan..."/>
+                    <Item id="41010" name="Impresaun..."/>
+                    <Item id="1001"  name="Impresaun Direitamente"/>
+                    <Item id="41011" name="Sai"/>
+                    <Item id="41012" name="Serve Sesaun..."/>
+                    <Item id="41013" name="Rai Sesaun..."/>
+                    <Item id="41014" name="Serve Husi Disko"/>
+                    <Item id="41015" name="Rai kopia Hanesan..."/>
+                    <Item id="41016" name="Hamos Husi Disko"/>
+                    <Item id="41017" name="Fachada Fila-fali..."/>
+
+                    <Item id="42001" name="Koa"/>
+                    <Item id="42002" name="Kopia"/>
+                    <Item id="42003" name="Frustadu"/>
+                    <Item id="42004" name="Fila-fali"/>
+                    <Item id="42005" name="Degola"/>
+                    <Item id="42006" name="Hamoos"/>
+                    <Item id="42007" name="Hili Hotu-Hotu"/>
+                    <Item id="42008" name="Aumenta Travesaun"/>
+                    <Item id="42009" name="Hamenus Travesaun"/>
+                    <Item id="42010" name="Duplika Linha"/>
+                    <Item id="42012" name="Hafahe linha"/>
+                    <Item id="42013" name="Konjuntu Linha"/>
+                    <Item id="42014" name="Hasae Linha"/>
+                    <Item id="42015" name="Hatun Linha"/>
+                    <Item id="42016" name="Alfabetu Boot"/>
+                    <Item id="42017" name="Alfabetu Kiik"/>
+                    <Item id="42018" name="Hahu Gravasaun"/>
+                    <Item id="42019" name="Hapara Gravasaun"/>
+                    <Item id="42021" name="Dulas"/>
+                    <Item id="42022" name="Truka Bloku Komentariu"/>
+                    <Item id="42023" name="Komentariu suli"/>
+					<Item id="42042" name="Koa Spasu Dahuluk"/>
+					<Item id="42043" name="Koa Spasu Dahuluk no Dahikus"/>
+					<Item id="42044" name="EOL sai Spasu"/>
+					<Item id="42045" name="Soe Mamuk no EOL Sangrar"/>
+					<Item id="42046" name="TAB sai Spasu"/>
+					<Item id="42047" name="Spasu sai TAB"/>
+                    <Item id="42024" name="Tesi Spasi Ikus"/>
+                    <Item id="42025" name="Rai Gravsaun Makro"/>
+                    <Item id="42026" name="Diresaun testu RTL"/>
+                    <Item id="42027" name="Diresaun Testu LTR"/>
+                    <Item id="42028" name="Regula So Lee Leit"/>
+                    <Item id="42029" name="Kaminu Arkivu Ativu Ba Klipbor"/>
+                    <Item id="42030" name="Naran Arkivu Ativu Klipbor"/>
+                    <Item id="42031" name="kaminu Pasta Ativu ba Klipbor"/>
+                    <Item id="42032" name="Halao Makro Dala Hira Deit..."/>
+                    <Item id="42033" name="Hamos Marka Lee Deit"/>
+                    <Item id="42035" name=" Bloku Komentar"/>
+                    <Item id="42036" name="Hamos Bloku Komentar"/>
+
+                    <Item id="43001" name="Buka..."/>
+                    <Item id="43002" name="Buka Tuirmai"/>
+                    <Item id="43003" name="Truka..."/>
+                    <Item id="43004" name="Ba Iha..."/>
+                    <Item id="43005" name="Truka Marka"/>
+                    <Item id="43006" name="Marka Tuirmai"/>
+                    <Item id="43007" name="Marka Antes"/>
+                    <Item id="43008" name="Hamos marka Hotu-Hotu"/>
+                    <Item id="43009" name="Ba iha Jogus Suportes"/>
+                    <Item id="43010" name="Buka Antes"/>
+                    <Item id="43011" name="Buka aumenta"/>
+                    <Item id="43013" name="BUKA Iha Aquivu nia Laran"/>
+                    <Item id="43014" name="Buka (Volatil) Tuirmai"/>
+                    <Item id="43015" name="Buka (Volatil) Antes"/>
+                    <Item id="43016" name="Marka Hotu-Hotu"/>
+                    <Item id="43017" name="Hamos Marka Hotu-Hotu"/>
+                    <Item id="43018" name="Koa Linha Markaona"/>
+                    <Item id="43019" name="Kopia Linha Markaona"/>
+                    <Item id="43020" name="Paste ba (Troka) Linha Markaona"/>
+                    <Item id="43021" name="Hamos Linha Markaona"/>
+                    <Item id="43022" name="Uza Modelu 1"/>
+                    <Item id="43023" name="Hamos Modelu 1"/>
+                    <Item id="43024" name="Uza Modelu 3"/>
+                    <Item id="43025" name="Hamos Modelu 2"/>
+                    <Item id="43026" name="Uza Modelu 3"/>
+                    <Item id="43027" name="Uza Modelu 3"/>
+                    <Item id="43028" name="Uza Modelu 4"/>
+                    <Item id="43029" name="Hamos Modelu 4"/>
+                    <Item id="43030" name="Uza Modelu 5"/>
+                    <Item id="43031" name=" Hamos Modelu 5"/>
+                    <Item id="43032" name="Hamos Modelu Hotu-Hotu"/>
+                    <Item id="43033" name="Modelu 1"/>
+                    <Item id="43034" name="Modelu 2"/>
+                    <Item id="43035" name="Modelu 3"/>
+                    <Item id="43036" name="Modelu 4"/>
+                    <Item id="43037" name="Modelu 5"/>
+                    <Item id="43038" name="Modelu Gaya"/>
+                    <Item id="43039" name="Modelu 1"/>
+                    <Item id="43040" name="Modelu 2"/>
+                    <Item id="43041" name="Modelu 3"/>
+                    <Item id="43042" name="Modelu 4"/>
+                    <Item id="43043" name="Modelu 5"/>
+                    <Item id="43044" name="Buka Modelu"/>
+                    <Item id="43045" name="Janela Rezultadu Peskizasaun"/>
+                   <Item id="43046" name="Rezultadu Peskizasaun Tuirmai"/>
+                    <Item id="43047" name="Rezultadu Peskizasaun Antes"/>
+                    <Item id="43048" name="Hili no Buka Tuirmai"/>
+                    <Item id="43049" name="Hili no Buka Antes"/>
+                    <Item id="43050" name="Feedback Marka"/>
+                    <Item id="44009" name="Post-It"/>
+                    <Item id="44010" name="Lulun Hotu-Hotu"/>
+                    <Item id="44011" name="Dialogu Definisaun User..."/>
+                    <Item id="44019" name="Hatudu Karakter Hotu-Hotu"/>
+                    <Item id="44020" name="Hatudu Guias Travesaun"/>
+                    <Item id="44022" name="Tesi Linha"/>
+                    <Item id="44023" name="Halo Boot Ctrl+Mouse Wheel Up"/>
+                    <Item id="44024" name="Halo kiik Ctrl+Mouse Wheel Down"/>
+                    <Item id="44025" name="Hatudu Espasu Mutin no TAB"/>
+                    <Item id="44026" name="Hatudu EOL"/>
+                    <Item id="44029" name="Loke Crease Hotu-Hotu"/>
+                    <Item id="44030" name="Naksobu Level Ida Ne'e"/>
+                    <Item id="44031" name="Dezenvolve Level Ida Ne'e"/>
+                    <Item id="44032" name="Troka Modus Layar Nakonu"/>
+                    <Item id="44033" name="Restaura Alargamentu Estandar"/>
+                    <Item id="44034" name="Sempre Iha Leten"/>
+					<Item id="44049" name="Rezumu..."/>
+                    <Item id="44035" name="Sinkronizasaun Rollover Vertikal"/>
+                    <Item id="44036" name="Sinkronizasaun Rollover Horisontal"/>
+                    <Item id="44041" name="Hatudu Simbolu Quebrador"/>
+                    <Item id="44072" name="Fokus ba display seluk"/>
+
+                    <Item id="45001" name="Konversaun ba Formatu Windows"/>
+                    <Item id="45002" name="Konversaun ba Formatu UNIX"/>
+                    <Item id="45003" name="Konversaun ba Formatu MAC"/>
+                    <Item id="45004" name="Enkodigo ANSI"/>
+                    <Item id="45005" name="Enkodigo UTF-8"/>
+                    <Item id="45006" name="Enkodigo UCS-2 Big Endian"/>
+                    <Item id="45007" name="Enkodigo UCS-2 Little Endian"/>
+                    <Item id="45008" name="Enkodigo UTF-8 tanpa BOM"/>
+                    <Item id="45009" name="Konversaun ba ANSI"/>
+                    <Item id="45010" name="Konversaun ba UTF-8 tanpa BOM"/>
+                    <Item id="45011" name="Konversaun ba UTF-8"/>
+                    <Item id="45012" name="Konversaun ba UCS-2 Big Endian"/>
+                    <Item id="45013" name="Konversaun ba UCS-2 Little Endian"/>
+
+                    <Item id="10001" name="Muda ba Display"/>
+                    <Item id="10002" name="Clone ba Hatudu Seluk"/>
+                    <Item id="10003" name="Muda ba Personifikasaun Seluk"/>
+                    <Item id="10004" name="Loke Iha Personifikasaun Nia Laran"/>
+
+
+                    <Item id="46001" name="Konfigurador Modelo..."/>
+                    <Item id="46080" name="Definisaun-User"/>
+                    <Item id="47000" name="Ihwal Notepad++..."/>
+                    <Item id="47001" name="Home Notepad++"/>
+                    <Item id="47002" name="Pagina Projetu Notepad++"/>
+                    <Item id="47003" name="Dokumentasaun Online"/>
+                    <Item id="47004" name="Forum"/>
+                    <Item id="47005" name="Bele-hetan Plugin Seluk"/>
+                    <Item id="47006" name="Atualiza Notepad++"/>
+                    <Item id="47008" name="Konteudu ba Ajuda"/>
+                    <Item id="48005" name="Importasaun Plugin ..."/>
+                    <Item id="48006" name="Importsaun Tema ..."/>
+                    <Item id="48009" name="Mapa Atalho..."/>
+                    <Item id="48011" name="Preferensia..."/>
+                    <Item id="49000" name="Halao..."/>
+
+                    <Item id="50000" name="Funsaun Ekipamentu"/>
+                    <Item id="50001" name="Liafuan Ekipamentu"/>
+                    <Item id="50002" name="Funsaun Ajuda Parametru"/>
+                    <Item id="42034" name="Editor Koluna..."/>
+                    <Item id="44042" name="Subar Linha"/>
+                    <Item id="42040" name="Loke Arkivu Foun Hotu-Hotu"/>
+                    <Item id="42041" name="Halomamuk Registu Arkivu Foun"/>
+					<Item id="48016" name="Muda Atalhos/Hamos Makro..."/>
+					<Item id="48017" name="Muda Atalhos/Hamos Komandus..."/>
+					<Item id="48018" name="Editar Kontestu Menu Popup"/>
+                </Commands>
+            </Main>
+            <Splitter>
+            </Splitter>
+            <TabBar>
+                    <Item CMID="0" name="Taka"/>
+                    <Item CMID="1" name="Taka Hotu-Hotu Exeptu ne'e"/>
+                    <Item CMID="2" name="Rai"/>
+                    <Item CMID="3" name="Rai Hanesan..."/>
+                    <Item CMID="4" name="Prduz"/>
+                    <Item CMID="5" name="Muda ba Display seluk"/>
+                    <Item CMID="6" name="Duplika ba Display seluk"/>
+                    <Item CMID="7" name="Path Arkivu Kompletu ba Klipbor"/>
+                    <Item CMID="8" name="Naran Arkivu ba Klipbor"/>
+                    <Item CMID="9" name="Path Anuariu Ativu ba Klipbor"/>
+                    <Item CMID="10" name="Troka Naran"/>
+                    <Item CMID="11" name="Hamos"/>
+                    <Item CMID="12" name="Lee Deit"/>
+                    <Item CMID="13" name="Hamos Marka Lee Deit"/>
+                    <Item CMID="14" name="Muda ba Enkarnasaun Foun"/>
+                    <Item CMID="15" name="Loke iha Enkarnasaun Foun nia Laran"/>
+            </TabBar>
+        </Menu>
+
+        <Dialog>
+            <Find title="" titleFind="Buka" titleReplace="Troka" titleFindInFiles="Buka Iha Arkivu laran" titleMark="Marka">
+                <Item id="1"    name="Buka Tuirmai"/>
+                <Item id="2"    name="Taka"/>
+                <Item id="1620" name="Buka Caida:"/>
+                <Item id="1603" name="Kombinasaun Liafuan Hotu-Hotu"/>
+                <Item id="1604" name="Kombinasaun Kapitalizasaun"/>
+                <Item id="1605" name="Expresaun Regular"/>
+                <Item id="1606" name="Imediasaun Apit"/>
+                <Item id="1612" name="Sae"/>
+                <Item id="1613" name="Tun"/>
+                <Item id="1614" name="Konta"/>
+                <Item id="1615" name="Buka Hotu-Hotu"/>
+                <Item id="1616" name="Marka Linha"/>
+                <Item id="1617" name="Modelu Rezultado Token"/>
+                <Item id="1618" name="Hamos durante Peskizasaun Hotu-Hotu"/>
+                <Item id="1621" name="Diresaun"/>
+                <Item id="1611" name="Troka Ho:"/>
+                <Item id="1608" name="Troka"/>
+                <Item id="1609" name="Troka Hotu-Hotu"/>
+			 	<Item id="1623" name="Transparansia"/>
+			 	<Item id="1687" name="Bainhira Fokus lakon"/>
+			 	<Item id="1688" name="Sempre"/>
+			 	<Item id="1632" name="Iha Selesaun"/>
+			 	<Item id="1633" name="Hamos"/>
+			 	<Item id="1635" name="Troka Laran Hotu-Hotu Dokumentu nakloke Hotu-Hotu"/>
+			 	<Item id="1636" name="Buka Laran Hotu-Hotu Dokumentu nakloke Hotu-Hotu"/>
+			 	<Item id="1637" name="Buka Arkivu Laran"/>
+			 	<Item id="1654" name="Filter:"/>
+			 	<Item id="1655" name="Direktori:"/>
+			 	<Item id="1656" name="Buka Hotu-Hotu"/>
+			 	<Item id="1658" name="Iha subdirektori laran Hotu-Hotu"/>
+			 	<Item id="1659" name="Iha direktori okultu"/>
+			 	<Item id="1624" name="Modus peskizaun"/>
+			 	<Item id="1625" name="Normal"/>
+			 	<Item id="1626" name="Kontinua (\n, \r, \t, \0, \x...)"/>
+			 	<Item id="1660" name="Troka iha Laran Arkivu"/>
+                <Item id="1661" name="Tuir dok. ativu"/>
+			 	<Item id="1641" name="Hotu-Hotu Buka iha dokumentu ida ne'e nia laran"/>
+			 	<Item id="1686" name="Transparansia"/>
+            </Find>
+            <GoToLine title="ba iha...">
+                <Item id="2007" name="Linha"/>
+                <Item id="2008" name="Ofset"/>
+                <Item id="1"    name="Ba"/>
+                <Item id="2"    name="Manten Iha Fatin"/>
+                <Item id="2004" name="Ita iha ne'e:"/>
+                <Item id="2005" name="Ita hakarak ba:"/>
+                <Item id="2006" name="Ita labele liu husi:"/>
+            </GoToLine>
+
+            <Run title="Halao...">
+                <Item id="1903" name="Programa atu halao"/>
+                <Item id="1"    name="halao"/>
+                <Item id="2"    name="kansela"/>
+                <Item id="1904" name="Rai..."/>
+            </Run>
+
+            <StyleConfig title="Konfigurasaun modelu">
+                <Item id="2"    name="Kansela"/>
+                <Item id="2301" name="Rai  Taka"/>
+                <Item id="2303" name="Transparansia"/>
+                <Item id="2306" name="Hili tema: "/>
+                <SubDialog>
+                	<Item id="2204" name="Mahar"/>
+                    <Item id="2205" name="Miring"/>
+                    <Item id="2206" name="Kor oin"/>
+                    <Item id="2207" name="Kor kotuk"/>
+                    <Item id="2208" name="Tipu letra:"/>
+                    <Item id="2209" name="Boot letra:"/>
+                    <Item id="2212" name="Modelu kor"/>
+                    <Item id="2213" name="Modelu letra"/>
+                    <Item id="2214" name="Ekst. estandar:"/>
+                    <Item id="2216" name="Ekst. User:"/>
+                    <Item id="2218" name="Linha kraik"/>
+                    <Item id="2219" name="Liafuan xave estandar"/>
+                    <Item id="2221" name="Liafuan xave definisaun user"/>
+                    <Item id="2225" name="Dalen:"/>
+                    <Item id="2226" name="Ativu global nia kor oin"/>
+                    <Item id="2227" name="Ativu global nia kor kotuk"/>
+                    <Item id="2228" name="Ativu modelu letra global"/>
+                    <Item id="2229" name="Aktivu letra boot global"/>
+                    <Item id="2230" name="Ativu modelu letra mahar global"/>
+                    <Item id="2231" name="Ativu modelu letra miring global"/>
+                    <Item id="2232" name="Ativu modelu letra linha kraik global"/>
+                </SubDialog>
+
+            </StyleConfig>
+
+            <UserDefine title="User-Defined">
+                <Item id="20002" name="Troka naran"/>
+                <Item id="20003" name="Halo foun..."/>
+                <Item id="20004" name="Hamos"/>
+                <Item id="20005" name="Rai hanesan..."/>
+                <Item id="20007" name="Dalen user: "/>
+                <Item id="20009" name="Ekst.:"/>
+                <Item id="20012" name="ignorar kapitalizasaun"/>
+                <Item id="20011" name="Transparansia"/>
+				<Item id="20016" name="Importasaun..."/>
+				<Item id="20015" name="Eksportasaun..."/>
+                <Item id="0"     name="Modelu kor"/>
+                <Item id="1"     name="Kor oin"/>
+                <Item id="2"     name="Kor kotuk"/>
+                <Item id="3"     name="Modelu letra"/>
+                <Item id="4"     name="Tipu letra:"/>
+                <Item id="5"     name="Boot letra:"/>
+                <Item id="6"     name="Mahar"/>
+                <Item id="7"     name="Miring"/>
+                <Item id="8"     name="Linha Kraik"/>
+                <Folder title="Anuariu padraun">
+                    <Item id="21101" name="Regulasaun modelu padraun"/>
+                    <Item id="21201" name="Regulasaun liafuan xave loke Anuariu"/>
+                    <Item id="21301" name="Regulasaun liafuan xave loke Anuariu"/>
+                </Folder>
+                <Keywords title="Registu liafuan xave">
+                    <Item id="22101" name="Grupu 1"/>
+                    <Item id="22201" name="Grupu 2"/>
+                    <Item id="22301" name="Grupu 3"/>
+                    <Item id="22401" name="Grupu 4"/>
+                    <Item id="22113" name="Modus prefiksu"/>
+                    <Item id="22213" name="Modus prefiksu"/>
+                    <Item id="22313" name="Modus prefiksu"/>
+                    <Item id="22413" name="Modus prefiksu"/>
+                </Keywords>
+                <Comment title="Komentariu  Numeru">
+                    <Item id="23301" name="Linha Komentariu"/>
+                    <Item id="23101" name="Bloku Komentariu"/>
+                    <Item id="23113" name="Loke komentariu:"/>
+                    <Item id="23115" name="Tutup komentar:"/>
+                    <Item id="23116" name="Trata liafuan xave hanesan simbolu"/>
+                    <Item id="23117" name="Trata liafuan xave hanesan simbolu"/>
+                    <Item id="23201" name="Numeru"/>
+                </Comment>
+                <Operator title="Operator">
+                    <Item id="24107" name="Operator"/>
+                    <Item id="24103" name="Simbolu disponivel"/>
+                    <Item id="24101" name="Operator ativu"/>
+                    <Item id="24201" name="Bareira 1"/>
+                    <Item id="24211" name="limite dahuluk:"/>
+                    <Item id="24214" name="limite dahikus:"/>
+                    <Item id="24301" name="Bareira 2"/>
+                    <Item id="24311" name="limite dahuluk:"/>
+                    <Item id="24314" name="dahikus close:"/>
+                </Operator>
+                <Item id="24001" name="Ativasaun karakter escape:"/>
+            </UserDefine>
+			<Preference title="Preferensia">
+                <Item id="6001" name="Taka"/>
+                <Global title="Geral">
+                    <Item id="6101" name="Toolbar"/>
+                    <Item id="6102" name="Ocultar"/>
+                    <Item id="6103" name="Ikon kiik"/>
+	                <Item id="6104" name="Ikon boot"/>
+                    <Item id="6105" name="Ikon standar"/>
+
+                    <Item id="6106" name="Lamina Tab"/>
+                    <Item id="6107" name="halo-kiik"/>
+                    <Item id="6108" name="xave (laiha tragada)"/>
+                    <Item id="6109" name="Tab nonativu nakukun"/>
+                    <Item id="6110" name="Tab ativu koloridu"/>
+
+                    <Item id="6111" name="hatudu barra estatus"/>
+                    <Item id="6112" name="hatudu tombol ba tab hotu-hotu"/>
+                    <Item id="6113" name="klik dala rua atu taka dokumentu"/>
+                    <Item id="6118" name="ocultar"/>
+                    <Item id="6119" name="Multilinha"/>
+                    <Item id="6120" name="Vertikal"/>
+
+                    <Item id="6121" name="Lamina Menu"/>
+                    <Item id="6122" name="Ocultar (Troka ho Alt/F10)"/>
+                    <Item id="6123" name="lokalizasaun"/>
+                </Global>
+                <Scintillas title="edisoen">
+                    <Item id="6216" name="Regulasaun sirkunflexu"/>
+                    <Item id="6217" name="Luan:"/>
+                    <Item id="6219" name="velocidade blink:"/>
+                    <Item id="6221" name="C"/>
+                    <Item id="6222" name="P"/>
+                    <Item id="6224" name="Regulasaun Multiedit"/>
+                    <Item id="6225" name="Ativasaun (Ctrl+Mouse)"/>
+                    <Item id="6201" name="Modelu limite ruga"/>
+                    <Item id="6202" name="simples"/>
+                    <Item id="6203" name="seta"/>
+	                <Item id="6204" name="ai kabuar"/>
+                    <Item id="6205" name="ai kotak"/>
+                    <Item id="6226" name="la iha"/>
+
+                    <Item id="6227" name="dekapitasaun linha"/>
+                    <Item id="6228" name="Padraun"/>
+                    <Item id="6229" name="Loos"/>
+                    <Item id="6230" name="Travesaun"/>
+
+                    <Item id="6206" name="Hatudu numeru forma"/>
+                    <Item id="6207" name="Hatudu marka"/>
+                    <Item id="6208" name="Hatudu limite vertikal"/>
+                    <Item id="6209" name="Total koluna: "/>
+
+                    <Item id="6211" name="Regulasaun limite Vertikal"/>
+                    <Item id="6212" name="Modus forma"/>
+                    <Item id="6213" name="Modus kotuk"/>
+                    <Item id="6214" name="Aktivasaun projesaun forma ativu"/>
+                </Scintillas>
+                <NewDoc title="Dokumentu foun/Anuariu padraun">
+                    <Item id="6401" name="Formatu"/>
+                    <Item id="6402" name="Windows"/>
+                    <Item id="6403" name="Unix"/>
+	                <Item id="6404" name="Mac"/>
+                    <Item id="6405" name="Enkode"/>
+                    <Item id="6406" name="ANSI"/>
+                    <Item id="6407" name="UTF-8 nem BOM"/>
+                    <Item id="6408" name="UTF-8"/>
+                    <Item id="6409" name="UCS-2 Big Endian"/>
+                    <Item id="6410" name="UCS-2 Little Endian"/>
+                    <Item id="6411" name="Dalen padraun:"/>
+                    <Item id="6413" name="Anuariu Padraun (Buka/Simpan)"/>
+                    <Item id="6414" name="Tuir documentu ativu"/>
+                    <Item id="6415" name="hanoin anuariu ikus"/>
+                    <Item id="6419" name="Dokumentu foun"/>
+                    <Item id="6420" name="Terapkan untuk berkas ANSI"/>
+                </NewDoc>
+                <FileAssoc title="Asosiasaun arkivu">
+                    <Item id="4009" name="Ekst. suporta:"/>
+                    <Item id="4010" name="Ekst. registradu:"/>
+                </FileAssoc>
+                <LangMenu title="Menu/Tab Dalen">
+                    <Item id="6301" name="regulasaun Tab"/>
+                    <Item id="6302" name="Troka ho spasi"/>
+                    <Item id="6303" name="Boot tab: "/>
+                    <Item id="6505" name="Item disponivel"/>
+                    <Item id="6506" name="Item nonativu"/>
+                    <Item id="6507" name="Menu dalen conciza"/>
+                    <Item id="6508" name="Menu dalen"/>
+                    <Item id="6510" name="uza valor padraun"/>
+                </LangMenu>
+                <Print title="Produtor">
+                    <Item id="6601" name="produs numeru forma"/>
+                    <Item id="6602" name="Opsi cor"/>
+                    <Item id="6603" name="YALIYAD"/>
+                    <Item id="6604" name="Fila-fali"/>
+	                <Item id="6605" name="metan iha mutin nia leten"/>
+                    <Item id="6606" name="lapresiza cor kotuk"/>
+                    <Item id="6607" name="regulasaun Margin (Unit:mm)"/>
+                    <Item id="6612" name="Karuk"/>
+                    <Item id="6613" name="leten"/>
+                    <Item id="6614" name="loos"/>
+                    <Item id="6615" name="kraik"/>
+                    <Item id="6706" name="mahar"/>
+                    <Item id="6707" name="Miring"/>
+                    <Item id="6708" name="ulun"/>
+                    <Item id="6709" name="parte karuk"/>
+	                <Item id="6710" name="parte klaran"/>
+                    <Item id="6711" name="parte loos"/>
+                    <Item id="6717" name="mahar"/>
+                    <Item id="6718" name="Miring"/>
+                    <Item id="6719" name="Ain"/>
+                    <Item id="6720" name="parte karuk"/>
+	                <Item id="6721" name="parte klaran"/>
+                    <Item id="6722" name="parte loos"/>
+	                <Item id="6723" name="Aumenta"/>
+                    <Item id="6725" name="Variabel:"/>
+                    <Item id="6728" name="Ulun and Ain"/>
+                </Print>
+                <MISC title="Lain-lain">
+                    <Item id="6304" name="Riwayat arkivu ikus"/>
+	                <Item id="6305" name="Labele konsulta bainhira loke hela "/>
+                    <Item id="6306" name="TOTAL entri maks.:"/>
+                    <Item id="6307" name="Ativasaun"/>
+                    <Item id="6308" name="redus bandeza sistema"/>
+                    <Item id="6309" name="hanoin iha sesaun ikus bainhira loke iha proximu"/>
+                    <Item id="6312" name="deteksaun automatika ba estatus arkivu"/>
+                    <Item id="6313" name="dikretamente aktualizadus"/>
+                    <Item id="6318" name="regulasaun link bele klik"/>
+                    <Item id="6325" name="dulas atu nune forma ikus depois renovada"/>
+                    <Item id="6319" name="Ativasaun"/>
+                    <Item id="6320" name="La presiza garis kraik"/>
+                    <Item id="6322" name="Ekst. arkivu sesaun:"/>
+                    <Item id="6323" name="Ativasaun performador automatiku Notepad++"/>
+                    <Item id="6324" name="troka documentus (Ctrl+TAB)"/>
+                    <Item id="6326" name="Ativa deskantadu matenek"/>
+                    <Item id="6329" name="destake tag match"/>
+                    <Item id="6327" name="Ativasaun"/>
+                    <Item id="6328" name="tag atributu destake"/>
+                    <Item id="6330" name="relace zona komentariu/php/asp"/>
+
+                    <Item id="6331" name="Htudu deit naran arkivu iha lamina topiku"/>
+                    <Item id="6114" name="Ativasaun"/>
+                    <Item id="6115" name="travesaun automatiku"/>
+                    <Item id="6117" name= "ativu komportamentu MRU"/>
+								  
+		</MISC>
+                <Backup title="Backup / Autocomplete ">
+                    <Item id="6801" name="Rezerva"/>
+                    <Item id="6315" name="la iha"/>
+                    <Item id="6316" name="Rezerva simples"/>
+                    <Item id="6317" name="rezerva kompletu"/>
+                    <Item id="6804" name="anuariu rezerva personalizado"/>
+                    <Item id="6803" name="Anuariu:"/>
+                    <Item id="6807" name="autocomplete"/>
+	                <Item id="6808" name=" ativasaun prensimentu automatiku ba entrada ida-idak"/>
+                    <Item id="6809" name="ekipamentu funsiona"/>
+                    <Item id="6810" name="ekipamentu liafuan"/>
+                    <Item id="6811" name="Husi"/>
+                    <Item id="6813" name="karakter"/>
+                    <Item id="6814" name="Valor valido: 1 - 9"/>
+                    <Item id="6815" name="auxiliar funsaun  parâmetros iha entrada"/>
+                </Backup>
+            </Preference>
+			<MultiMacro title="Halao Makro Dala hira">
+                <Item id="1" name="Halao"/>
+                <Item id="2" name="Kansela"/>
+                <Item id="8006" name="Makro atu halao"/>
+                <Item id="8001" name="halao"/>
+                <Item id="8005" name="dala"/>
+                <Item id="8002" name="halao ba EOL"/>
+            </MultiMacro>
+			<Window title="Janela">
+                <Item id="1" name="Ativasaun"/>
+                <Item id="2" name="Oke"/>
+                <Item id="7002" name="Rai"/>
+                <Item id="7003" name="Taka janela"/>
+                <Item id="7004" name="klasifikadas tab"/>
+            </Window>
+			<ColumnEditor title="Column Editor">
+                <Item id="2023" name="insersaun testu"/>
+                <Item id="2033" name="insersaun numeru"/>
+                <Item id="2030" name="Numeru dahuluk:"/>
+                <Item id="2031" name="Hasae boboot:"/>
+                <Item id="2035" name="mamuk ba hahu"/>
+                <Item id="2032" name="Formatu"/>
+                <Item id="2024" name="Dec"/>
+                <Item id="2025" name="Oct"/>
+                <Item id="2026" name="Hex"/>
+                <Item id="2027" name="Bin"/>
+                <Item id="1" name="Oke"/>
+                <Item id="2" name="kansela"/>
+            </ColumnEditor>
+		</Dialog>
+    </Native-Langue>
+</NotepadPlus>
